@@ -1,10 +1,23 @@
-.idea/
-venv/
-build/
-*.so
-*.egg-info/
+# OS
+.DS_Store
+
+# Python artifacts
 __pycache__/
-dist/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+
+# Notebooks checkpoints
 .ipynb_checkpoints/
-.DS_STORE
-*.cpp
+
+# Local data & results (can be regenerated)
+data/
+*.csv
+
+# Editors
+.vscode/
+.idea/
